@@ -1,0 +1,64 @@
+.playlist-outer-modal {
+  background-color: rgba(0 0 0 / 60%);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  cursor: default;
+  opacity: 1;
+  z-index: 100;
+}
+.app {
+  color: #fff;
+}
+
+.playlist-inner-modal {
+  background-color: #1e1e1e;
+  width: 50%;
+  max-width: 20em;
+  height: 15em;
+  padding: 0.5em 1em;
+}
+.border_none {
+  background-color: #1e1e1e;
+  border: none;
+}
+.playlist-modal-symbol {
+  font-size: 1.8rem;
+  color: white;
+  /* background-color: #1e1e1e; */
+}
+.playlist-checkbox {
+  padding: 1em 0.5em;
+}
+.playlist-add {
+  padding: 1em 0.25em;
+}
+.playlist-add button {
+  font-size: 1.8rem;
+  color: var(--clr-grey-10);
+}
+.playlist-create-input {
+  font-size: 0.8em;
+  color: var(--clr-white-2);
+  background-color: var(--clr-playlist-create);
+  height: 0.8em;
+  padding: 0.9em;
+  border: none;
+  border-radius: 0.5em;
+  margin: 0.5em 0px;
+}
+
+.playlist-create-button {
+  color: white;
+  padding: -3.5em;
+  background-color: hsla(0, 0%, 94%, 0.3);
+  font-size: 1.2rem;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.playlist-card-overlay {
+  bottom: -2.6em;
+  right: 0.2em;
+}

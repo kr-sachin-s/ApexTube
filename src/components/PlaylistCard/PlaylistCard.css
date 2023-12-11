@@ -1,0 +1,144 @@
+.video-card {
+  width: 25vw;
+  margin: 0px auto;
+  cursor: pointer;
+  /* outline: 1px solid red;
+  border-radius: 1em; */
+}
+.playlist-card {
+  width: 25vw;
+}
+
+.video-card-main {
+  position: relative;
+  overflow: hidden;
+}
+.video-card-main img {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+.border_none {
+  border: none;
+  background-color: var(--primary-color);
+}
+.title {
+  font-size: 1.2rem;
+}
+.video-card-main img {
+  width: 100%;
+  border-radius: 1em;
+}
+.icon_svg {
+  color: #fff;
+  background-color: black;
+  background: none;
+}
+.border_none {
+  border: none;
+  background-color: var(--primary-color);
+}
+.video-card-details {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0.4em 0.5em 0em;
+}
+.video-card-details-heading {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--clr-grey-10);
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  text-align: start;
+  margin-right: 0.5em;
+}
+
+.video-card-channel {
+  font-size: 1.25rem;
+  color: var(--clr-font);
+}
+.video-card-dots {
+  padding: 0.2em;
+  position: relative;
+  margin-top: 0.7rem;
+  font-size: 0.7rem;
+}
+.video-card-dots button {
+  color: var(--clr-grey-10);
+}
+.video-card-overlay {
+  background-color: var(--clr-bg-3);
+  width: max-content;
+  border-radius: 0.4em;
+  position: absolute;
+  right: 0em;
+  z-index: 2;
+}
+.playlist-overlay {
+  font-size: 1.8rem;
+  background-color: var(--clr-playlist-overlayy);
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 0.8;
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+/* .video-card-outer-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+} */
+.video-card-overlay button,
+.video-card-overlay a {
+  font-size: 1rem;
+  color: var(--clr-white-2);
+  background-color: transparent;
+  padding: 0.6em 1em;
+  border: none;
+  border-radius: 0.4em;
+  text-align: start;
+  /* font-family: poppins, "sans-serif"; */
+}
+.video-card-overlay button:hover,
+.video-card-overlay a:hover {
+  background-color: #393943;
+  color: var(--clr--10);
+}
+.playlist-overlay-number {
+  color: #fff;
+}
+
+.active-button.active-watchlater {
+  font-weight: 600;
+  color: #088178;
+}
+.active-button.active-history {
+  font-weight: 600;
+  color: var(--clr-red-light);
+}
+@media only screen and (max-width: 71.875em) {
+  .video-card {
+    width: 23vw;
+  }
+}
+@media only screen and (max-width: 60em) {
+  .video-card {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .video-card {
+    width: 90%;
+    margin-bottom: 1em;
+  }
+}

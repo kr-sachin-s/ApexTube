@@ -1,0 +1,72 @@
+.mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 4rem; */
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+.moboSidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.4rem 0;
+  text-align: center;
+}
+.moboSidebarTab {
+  padding: 0 2.2rem;
+}
+.moboSidebarTab p {
+  color: #fff;
+  margin: 0;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+.mob {
+  color: #fff;
+}
+.moboSidebarTab:active,
+.moboSidebarTab:hover {
+  background-color: var(--secondary-light-color);
+}
+@media (max-width: 600px) {
+  .mobile {
+  }
+  .moboSidebarTab p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 650px) {
+  .moboSidebarTab {
+    padding: 0 1.6rem;
+  }
+}
+@media (max-width: 545px) {
+  .moboSidebarTab {
+    padding: 0 1.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .moboSidebarTab {
+    padding: 0 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .moboSidebarTab {
+    padding: 0 1.2rem;
+  }
+}
+@media (max-width: 385px) {
+  .moboSidebarTab {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 385px) {
+  .moboSidebarTab {
+    padding: 0 0.8rem;
+  }
+}
